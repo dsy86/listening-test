@@ -3,7 +3,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 function Home() {
-  const [wordCount, setWordCount] = useState(50);
+  const [wordCount, setWordCount] = useState(10);
   const navigate = useNavigate();
   const inputRef = useRef(null); // 创建引用
 
