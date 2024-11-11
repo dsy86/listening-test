@@ -306,7 +306,7 @@ const wordBank = [
   function Test() {
     const location = useLocation();
     const navigate = useNavigate();
-    const wordCount = location.state?.wordCount || 50;
+    const wordCount = location.state?.wordCount || 10;
   
     const [wordsToTest, setWordsToTest] = useState([]);
     const [currentWordIndex, setCurrentWordIndex] = useState(0);
